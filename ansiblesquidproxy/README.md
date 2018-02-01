@@ -22,7 +22,13 @@ test
 192.168.203.132 ##myLocalİp
 ```
 
-### Ansible-playbook run
+### ansible-playbook run
 
 ansible-playbook --extra-vars "ip=PROXYİPADDRES" proxy.yml -kK
+
+##### default proxy username password
+>admin:admin
+
+#### new password or add user
+> htpasswd /etc/squid/squid_passwd username
 
