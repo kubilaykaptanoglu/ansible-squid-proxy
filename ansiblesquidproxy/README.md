@@ -26,9 +26,14 @@ test
 
 ansible-playbook --extra-vars "ip=PROXYİPADDRES" proxy.yml -kK
 
-##### default proxy username password
+### NOTE
+
+###### Squid Proxy Port
+> Port : 5353
+
+###### default proxy username password
 >admin:admin
 
-#### new password or add user
+###### new password or add user
 > htpasswd /etc/squid/squid_passwd username
 
