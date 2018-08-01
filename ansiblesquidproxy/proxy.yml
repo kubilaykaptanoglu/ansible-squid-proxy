@@ -1,4 +1,4 @@
-- name: VPS
+- name: PROXY
   hosts: test
   tasks:
    - name: Install squid proxy
