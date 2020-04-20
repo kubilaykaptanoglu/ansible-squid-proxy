@@ -24,7 +24,7 @@ test
 
 ### ansible-playbook run
 
-ansible-playbook --extra-vars "ip=PROXYİPADDRES" proxy.yml -kK
+ansible-playbook --extra-vars "ip=PROXYIPADDRESS" proxy.yml -kK
 
 ### NOTE
 
