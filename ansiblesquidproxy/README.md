@@ -19,7 +19,7 @@ vi /etc/ansible/hosts
 
 ```
 test
-192.168.203.132 ##myLocalİp
+192.168.203.132 ##myLocalIp
 ```
 
 ### ansible-playbook run
